@@ -33,7 +33,7 @@ jobs:
     - name: Build Docker image
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
-        image: dinukakariyawasam/git_actions_practice
+        image: dinukakariyawasam/ctse_devops
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
