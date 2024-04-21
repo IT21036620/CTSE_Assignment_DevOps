@@ -5,7 +5,7 @@ FROM openjdk:17
 WORKDIR /app
 
 # Copy the packaged JAR file into the container at defined working directory
-COPY target/your-spring-boot-app.jar /app/your-spring-boot-app.jar
+COPY . .
 
 # Expose the port that your Spring Boot application uses (default is 8080)
 EXPOSE 8080
