@@ -11,5 +11,5 @@ COPY . .
 EXPOSE 8081
 
 # Command to run your Spring Boot application when the container starts
-ENTRYPOINT ["java", "-jar", "CTSE_Assignment_DevOps.jar"]
+CMD ["java", "-jar", "product-service.jar"]
 
