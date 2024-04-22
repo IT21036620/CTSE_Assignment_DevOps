@@ -18,7 +18,7 @@ COPY . .
 ENV DB_PASSWORD=theanswer
 
 # Expose the port that your Spring Boot application uses (default is 8080)
-EXPOSE 8081
+EXPOSE 8080
 
 # Command to run your Spring Boot application when the container starts
 CMD ["java", "-jar", "product-service.jar"]
