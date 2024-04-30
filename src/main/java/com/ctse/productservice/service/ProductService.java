@@ -58,7 +58,6 @@ public class ProductService {
         Product product = productRepository.findById(id).orElse(null);
         if (product == null) return "No product exist with the given id: " + id;
         productRepository.deleteById(id);
-        System.out.println("Product Name: " + product.getName() );
         return "Successfully deleted product with id: " + id;
     }
 
