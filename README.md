@@ -16,12 +16,6 @@ This repository contains the DevOps project for the CTSE module. The project foc
 - Integrated security measures protect and manage access to the microservice.
 - Comprehensive testing and deployment feedback through automated workflows.
 
-## How to Use
-1. Clone the repository.
-2. Use Docker commands to build and run the container locally.
-3. Configure GitHub Actions workflows as needed.
-4. Test API endpoints through Postman using the provided URL.
-
 ## Contributors
 - **Kariyawasam K.P.W.D.V.** - IT21036620
 - **Fernandopulle J.M.** - IT21104862
@@ -30,4 +24,3 @@ This repository contains the DevOps project for the CTSE module. The project foc
 ## Repository Links
 - [DockerHub Repository](https://hub.docker.com/r/dinukakariyawasam/ctse_devops)
 - [Microservice API](https://ctseassign.azurewebsites.net/api/product)
-
